@@ -1,7 +1,7 @@
 Cohaesus buildpack: Node.js
 =========================
 
-This is a [Cohaesus version of Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps.
+This is the Cohaesus [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps.
 It uses [NPM](http://npmjs.org/) and [SCons](http://www.scons.org/).
 
 Usage
@@ -12,7 +12,7 @@ Example usage:
     $ ls
     Procfile  package.json  web.js
 
-    $ heroku create --stack cedar --buildpack http://github.com/cohaesus/heroku-buildpack-nodejs.git
+    $ heroku create --stack cedar --buildpack http://github.com/Cohaesus/heroku-buildpack-nodejs.git
 
     $ git push heroku master
     ...
